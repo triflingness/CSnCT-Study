@@ -1,5 +1,4 @@
-# CSnCT-Study
-CS &amp; CT Study
+# CS&amp;CT-Study
 # Team: Sally👾
 |이름|아이디|담당|
 |-|-|:-:|
