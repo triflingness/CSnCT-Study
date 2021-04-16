@@ -21,7 +21,7 @@
 ![디자인 패턴 유형](./images/디자인%20패턴%20유형.jpg)
 
 ## GoF 디자인 패턴(목적에 따른 디자인 패턴 종류)
-이 분야의 4인방(Gang of Four, GoF)이라 불리는 에리히 감마(Erich Gamma), 리차드 헬름(Richard Helm), 랄프 존슨(Ralph Johnson), 존 블리시데스(John Vlissides)가 고안한 디자인 패턴   
+**이 분야의 4인방(Gang of Four, GoF)** 이라 불리는 에리히 감마(Erich Gamma), 리차드 헬름(Richard Helm), 랄프 존슨(Ralph Johnson), 존 블리시데스(John Vlissides)가 고안한 디자인 패턴   
 **23가지의 디자인 패턴**을 정리하고 각각의 디자인 패턴을 생성(Creational), 구조(Structural), 행위(Behavioral) 3가지로 분류
 
 ### 생성 패턴
