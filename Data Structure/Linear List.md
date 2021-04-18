@@ -16,6 +16,7 @@
   - 가장 간편한 자료 구조, 접근 구조가 빠름
   - 자료의 삽입, 삭제 시 기존 자료의 이동이 필요하기에 작업이 번거로움
   - 자료의 개수가 n 개 일때, 삽입 시 평균 이동 횟수 `(n+1)/2`, 삭제 시 평균 이동 횟수 `(n-1)/2`
+![선형 리스트](./imgs/linear_list.png)
   <!--[선형 겁색_파이썬](https://velog.io/@keemun/1)
   [선형 검색_자바](https://hyeon424.tistory.com/entry/Java-검색의-개념-및-알고리즘-종류선형-검색)-->
   ```python
@@ -79,6 +80,8 @@
    - 데이터를 꺼내는 쪽에서 가장 가까운 데이터를 Front라고 하고, 데이터를 넣는 쪽에서 가장 가까운 데이터를 Rear라고 함
    - ENQUEUE : 데이터를 차례대로 넣는 연산
    - DEQUEUE : 처음 저장된 데이터부터 하나씩 꺼내는 연산
+   
+![queue](./imgs/queue.png)
 ```java
    import java.util.*;
    Queue<T> queue = new LinkedList<>();
