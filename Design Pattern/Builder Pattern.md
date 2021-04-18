@@ -12,7 +12,7 @@ Member customer = Member.build()
 조슈아 블로크 (Joshua Bloch)가 쓴 책인 Effective JAVA에서 소개되는 **객체 생성을 깔끔하고 유연하게 하기 위한 기법**
 ### 객체 생성을 깔끔하게 하기 위한 방법
 
-#### 점층적 생성자 패턴(telescoping constructor pattern)
+#### 점층적 생성자 패턴(Telescoping Constructor Pattern)
 
 1. 필수 인자를 받는 필수 생성자를 하나 만든다.
 2. 1 개의 선택적 인자를 받는 생성자를 추가한다.
@@ -55,7 +55,7 @@ NutritionFacts pepsiCola = new NutritionFacts(220, 10, 110, 4, 30);
 NutritionFacts mountainDew = new NutritionFacts(230, 10);
 ```
 
-#### 점층적 생성자 패턴의 대안, 자바빈 패턴(JavaBeans pattern)
+#### 점층적 생성자 패턴의 대안, 자바빈 패턴(JavaBeans Pattern)
 `setter` 메서드를 이용해 생성 코드를 읽기 좋게 만드는 것
 ```java
 NutritionFacts cocaCola = new NutritionFacts();
