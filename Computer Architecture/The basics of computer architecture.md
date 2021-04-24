@@ -33,10 +33,8 @@ Computer Hardware
                CPU에 가까운 기억장치는 고속, 고가, 소용량, 먼 기억장치는 저속, 저가, 대용량이다.
                기억 장치의 계층 구조는 기억 장치를 효율적으로 배치하여 CPU의 처리 속도와 I/O 속도의 차이를 해소하기 위한 전략이다.
 > 메인 메모리(DRAM: Dynammic Random Access memory) :CPU에서 즉각적으로 수행할 프로그램과 필요한 데이터를 기억하 위한 장치
-
-![memory](https://github.com/triflingness/CSnCT-Study/blob/5ea1d9383abeb0edfeeed1634680257dbeaeee39/Computer%20Architecture/imgs/memory.png)
+<img src = "./imgs/memory.png" width="70%" height="40%">
              
-
 #### 3. 주변장치
 > 입력 장치, 출력 장치, 저장 장치
 #### 4. 기타 하드웨어
