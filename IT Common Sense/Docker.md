@@ -12,7 +12,7 @@
 
 > 애플리케이션을 관련 라이브러리 및 종속 항목과 함께 패키지로 묶어 소프트웨어 서비스 구동을 위한 격리 환경을 마련
 
-![VM vs Container](./images/VMvsContainer.png)
+<img src="./images/VMvsContainer.png" width="80%" height="80%">
 
 > 하이퍼바이저: 리소스가 파티셔닝되어 VM 전용으로 할당될 수 있도록 리소스를 물리 머신에서 분리하는 소프트웨어
 
@@ -40,7 +40,7 @@
 
 ## 구성요소
 
-![도커 구성요소](./images/도커-구성요소.png)
+<img src="./images/도커_구성요소.png" width="80%" height="80%">
 
 1. **Server(Docker Daemon):** 사용자와 Docker Client를 통해 연결되며 Host machine에서 컨테이너를 관리하고 실행
 2. **Client**: Docker와 사용자 간 인터페이스 제공하며 사용자 명령을 받아 Docker Daemon으로 전달(소켓 통신 사용)
@@ -50,13 +50,13 @@
 
 ## 동작방식
 
-![도커 동작방식](./images/도커_동작방식.png)
+<img src="./images/도커_동작방식.png" width="80%" height="80%">
 
 ## Docker Networking
 
 > 도커 컨테이너가 외부로 통신하기 위한 구조
 
-![도커 네트워킹](./images/도커_네트워킹.png)
+<img src="./images/도커_네트워킹.png" width="80%" height="80%">
 
 - **Default gateway**로 Linux bridge인 **docker0**를 만듦
     - 외부 네크워크와 교환하는 패킷에 NAT 작업 수행
@@ -71,10 +71,9 @@
 - 컨테이너 내부의 eth0와 docker0로 연결된 veth 인터페이스를 연결해 컨테이너 외부와 통신
 
 > veth란 하나의 network를 여러 개의 namespace로 격리하여 외부와 통신가능하도록 하는 인터페이스
-
+<br/>
 
 **참고**
-
 - Docker Container [https://www.slideshare.net/rkawkxms/docker-container](https://www.slideshare.net/rkawkxms/docker-container)
 - 네트워크 주소 변환 [https://ko.wikipedia.org/wiki/네트워크_주소_변환](https://ko.wikipedia.org/wiki/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC_%EC%A3%BC%EC%86%8C_%EB%B3%80%ED%99%98)
 - 컨테이너와 VM 비교[https://www.redhat.com/ko/topics/containers/containers-vs-vms](https://www.redhat.com/ko/topics/containers/containers-vs-vms)
