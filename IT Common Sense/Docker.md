@@ -56,7 +56,7 @@
 
 > 도커 컨테이너가 외부로 통신하기 위한 구조
 
-<img src="./images/도커_네트워킹.png" width="80%" height="80%">
+<img src="./images/도커_네트워킹.png" width="50%" height="50%">
 
 - **Default gateway**로 Linux bridge인 **docker0**를 만듦
     - 외부 네크워크와 교환하는 패킷에 NAT 작업 수행
