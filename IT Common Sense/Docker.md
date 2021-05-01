@@ -72,6 +72,7 @@
 
 > veth란 하나의 network를 여러 개의 namespace로 격리하여 외부와 통신가능하도록 하는 인터페이스
 
+
 **참고**
 
 - Docker Container [https://www.slideshare.net/rkawkxms/docker-container](https://www.slideshare.net/rkawkxms/docker-container)
