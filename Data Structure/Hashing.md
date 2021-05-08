@@ -35,7 +35,7 @@ Hashing
 4. 순서가 없다.
 
 ### 해시 함수
-- 해싱의 [시간 복잡도](Data Structure/탐색 방법 시간복잡도.md)는 O(1)이다.
+- 해싱의 [시간 복잡도](https://github.com/triflingness/CSnCT-Study/blob/main/Data%20Structure/%ED%83%90%EC%83%89%20%EB%B0%A9%EB%B2%95%20%EC%8B%9C%EA%B0%84%EB%B3%B5%EC%9E%A1%EB%8F%84.md)는 O(1)이다.
 - 충돌이 적어야 한다.
 - 해시 함수 값이 해시 테이블의 주소 영역내에 고르게 분포되어야한다.
 - 계산이 빨라야 한다.
