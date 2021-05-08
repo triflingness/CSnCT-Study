@@ -64,4 +64,10 @@ Hashing
 <img src = "./imgs/chaining.png"  width="40%" height="30%">
 
 
+***
+Java의 HashMap(해시맵)과 HashTable(해시테이블) 차이: 동기화 보장 유무, 키와 값에 null 가능 여부 
+
+동기화가 필요없다면 해시맵을, 동기화 보장이 필요하다면 해시테이블 사용  
+
+출처: [해시테이블 vs 해시맵](https://12216715011126.tistory.com/53)
 
