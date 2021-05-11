@@ -43,7 +43,7 @@ CISC & RISC
 - 파이프라인 프로세싱
 
 
-<img src = "./imgs/cisc_risc_table.png"  width="60%" height="40%">
+<img src = "./imgs/cisc_risc_table.png"  >
 로직 회로 크기 - RISC는 각각의 명령어가 단순한 프로세스에 상응함. CISC는 각각의 명령어가 여러 복잡한 프로세스에 실행됨
 코드 효율성 - RICS는 다수의 명령을 실행하여 하나의 프로세스 수행, CISC는 하나의 명령어 실행으로 다수의 프로세스 수행
 
