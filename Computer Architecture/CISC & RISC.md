@@ -38,7 +38,7 @@ CISC & RISC
 - 단일 클럭 프로세싱
 - 파이프라인 프로세싱
 
-<img src = "./imgs/cisc_risc_table.png"  width="70%" height="30%">
+<img src = "./imgs/cisc_risc_table.png"  width="70%" height="40%">
 
 
 
