@@ -18,12 +18,17 @@ Pipeline
 3. 명령어나 데이터 사이의 의존성이 없어야 한다.
 4. 하나의 파이프에서 이웃한 파이프로 이동할 때 동기화되어야 한다.
 
+<img src = "./imgs/risc_pipline.png">
+
 #### 파이프라인의 구성(MIPS 파이프라인 5단계)
 1. IF(Instruction Fetch) : 명령어 인출 단계
 2. ID(Instruction Decode) : 명령어 해독 및 레지스터 읽기 단계 (동시에 일어남)
 3. EX(Execution) : ALU 연산 단계, 실행 및 주소 계산 단계
 4. MEM(Memory) : 메모리 접근 단계
 5. WB(Write Back) : 레지스터 쓰기 단계
+
+
+<img src = "./imgs/mips_pipline.png">
 
 #### MIPS란
 - RISC의 구조를 이용한 프로세서
