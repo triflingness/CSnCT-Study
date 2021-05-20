@@ -184,3 +184,6 @@ public class AbstractFactoryPattern {
     - **팩토리 메서드 패턴의 확장**이라고 볼 수 있지만, 더 좋은 패턴이라고는 단정 지을 수 없음
     - 장점: 동일한 처리 로직의 하위클래스의 결합을 통해 선택적으로 객체를 생성 가능
     - 새로운 객체가 추가된다면 하위 클래스도 같이 추가돼야 하고 **확장 시 모든 하위클래스의 수정이 필요 가능**
+##### 참고
+- https://johngrib.github.io/wiki/abstract-factory-pattern/
+- https://yeah.tistory.com/13
