@@ -7,7 +7,7 @@ Pipeline Hazard
 - 해저드의 원인이 사라질 때까지 파이프라인에 명령어 투입을 멈추는 것을 __파이프라인 중지(Pipeline stall)__ 또는 __파이프라인 버블(Pipeline bubble)__ 이라고 함(해당 명령어는 NOP 명령어(No-operation))
 > 파이프라인 구조는 선행 명령어와 후행 명령어가 중첩되어 실행되기 때문에 명령어나 데이터가 준비되지 않아서 파이프라인을 멈춰야 하거나 새로운 명령어를 파이프라인에 투입할 경우 잘못된 결과가 초래되는 모든 상황이나 조건
 
-<img>
+<img src = "./imgs/pipeline_hazard.png"  width="70%" height="40%">
 
 ### Pipeline Hazard의 종류
 __1. 구조적 해저드(Structural hazard)__
