@@ -66,7 +66,7 @@ Shell(셸, 쉘)은 리눅스 커널과 사용자를 연결해주는 역할을 �
    - exit 명령으로 셸 종료
    - 부모 셸의 환경 변수를 전달받아 사용할 수 있음
 
-<img src = "./imgs/shells.png"  width="60%" height="40%">
+<img src = "./imgs/shells.png"  width="30%" height="50%">
 
 #### Shell의 명령어 형식
 
