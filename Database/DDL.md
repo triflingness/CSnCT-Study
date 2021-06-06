@@ -133,15 +133,6 @@ DROP DOMAIN DEPTNAME RESTRICT;
 RENAME EMPLOYEE TO EMP;
 ```
 
-## 5. TURNCATE
-
-- 특정 테이블의 모든 데이터를 삭제
-- 데이터만 삭제하므로 테이블 구조에는 영향 X
-
-```sql
-TURNCATE TABLE EMPLOYEE;
-```
-
 ## 제약 조건
 
 ```sql
