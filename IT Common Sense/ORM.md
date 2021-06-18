@@ -16,7 +16,7 @@
     - 프로그램 아키텍처에서 **데이터의 영속성을 부여해주는 계층**
     - JDBC를 이용하여 직접 구현할 수 있지만 Persistence Framework를 이용한 개발이 많이 이루어짐
 
-    ![Persistence Layer](./images/Persistence%20Layer.png)
+    ![Persistence Layer](./images/Persistence%20Layer.png.png)
 
     - 계층
         - 프레젠테이션 계층(Presentation layer) - UI 계층 (UI layer) 이라고도 함
