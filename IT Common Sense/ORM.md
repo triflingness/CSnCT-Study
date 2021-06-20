@@ -32,7 +32,7 @@
 
 # JDBC(Java Database Connectivity)
 
-> 모든 Java의 Data Access 기술의 근간으로 **DB에 접근할 수 있도록 Java에서 제곻하는 API**
+> 모든 Java의 Data Access 기술의 근간으로 **DB에 접근할 수 있도록 Java에서 제공하는 API**
 
 ![JDBC](./images/JDBC.png)
 
