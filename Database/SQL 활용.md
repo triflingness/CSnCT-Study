@@ -1,13 +1,6 @@
 # SELECT문
 
-```sql
-SELECT [ALL | DISTINCT] attribute_list      ➊  ⑤
-FROM table_list                             ➋  ①
-[WHERE condition]                           ➌  ②
-[GROUP BY attribute_list                    ➍  ③
-[HAVING condition]]                         ➎  ④
-[ORDER BY attribute_list[ASC | DESC]];      ➏  ⑥
-```
+![select문](./images/select.png)
 
 ➊ **검색할 테이블에 대한 ATTRIBUTE** 즉, 필드(데이터항목)에 대한 이름들을 기술하고 **모든 필드를 검색**할 경우에는 `*`(와일드 카드)를 기술. 또한 통계처리를 위한 **집단 함수**인 `MAX(), MIN(), AVG(), SUM(), COUNT(), COUNT(*)`등을 기술할 수도 있음.
 
