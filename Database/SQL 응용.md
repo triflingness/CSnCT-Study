@@ -9,7 +9,7 @@ DECODE(EMPNO, 1000, 'TURE', 'FALSE')
 
 # CASE문
 
-- IF~THEN~ELSE-END의 프로그래밍 언어처럼 **조건문**을 사용할 수 있음
+- IF ~ THEN ~ ELSE-END의 프로그래밍 언어처럼 **조건문**을 사용할 수 있음
 - 조건을 WHEN구에 사용하고 THEN은 해당 조건이 참이면 실행되고 거짓이면 ELSE구가 실행됨
 
 ```sql
