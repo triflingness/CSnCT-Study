@@ -11,7 +11,7 @@
 
 → `기능 클래스 계층` 과 `구현 클래스 계층` 을 독립된 클래스 계층으로 구현하고 두 개의 클래스 계층 사이를 연결하는 패턴
 
-<img scr="Design Pattern/images/bridgepatternstructure.png" width="50" height="60">
+<img src="https://github.com/triflingness/CSnCT-Study/blob/aecf555f0fd9e8f91fa43e73969e22d934a36373/Design%20Pattern/images/bridgepatternstructure.png">
 
 ### Bridge Pattern 구조
 
