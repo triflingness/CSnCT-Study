@@ -5,8 +5,8 @@
 - 트리의 구조로 작성하여 **전체-부분의 관계**(Ex. Directory - File)를 갖는 객체들 사이의 관계를 정의할 때 유용하다.
 - 클라이언트에서 부분, 관계 객체를 균일하게 처리하고 싶을 경우에 사용한다.
 
-<img src="">
-
+    <img src="./images/conposite_tree.png" width="50%" height="70%">
+    <br/>
 ### Composite Pattern 구조
 
 - **Component**
@@ -23,14 +23,14 @@
     - 여러 개의 Component 를 가질 수 있으므로 여러 개의 Leaf 와 여러개의 Composite 객체를 부분으로 가질 수 있다.
     - 전체 클래스
 
-    <img src="">
+    <img src="./images/composite_pattern.png" width="60%" height="40%">
 
     → `Client`클래스는 공통 `Interface`인 `Component`를 참조하여 `Leaf`와 `Conposite` 를 참조한다. 
 
     → `Leaf` 클래스는 `Component` 인터페이스를 구현한다.
 
     → `Composite` 클래스는 `Component` 객체 자식들을 유지하고, operation()과 같은 요청을 통해 자식들에게 전달한다.
-
+    <br/>
     ### 사용 예시 - 도형 색 입히기
 
     - **Component**
@@ -137,6 +137,9 @@
             }
         }
         ```
+    
+    <img src="./images/component_class.jpeg" width="60%" height="40%">
+    <br/>
 
     ### 장점
 
@@ -146,20 +149,13 @@
     ### 단점
 
     - 설계를 일반화시켜 객체간의 구분, 제약이 힘들다.
-
-
     <br/>
-
     
-    ------
-     참조
+------
+참조
 
-    [https://dailyheumsi.tistory.com/193#recentComments](https://dailyheumsi.tistory.com/193#recentComments)
-
-    [https://jdm.kr/blog/228](https://jdm.kr/blog/228)
-
-    [https://mygumi.tistory.com/343](https://mygumi.tistory.com/343)
-
-    [https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html](https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html)
-
-    [https://readystory.tistory.com/131](https://readystory.tistory.com/131)
+[https://dailyheumsi.tistory.com/193#recentComments](https://dailyheumsi.tistory.com/193#recentComments)
+[https://jdm.kr/blog/228](https://jdm.kr/blog/228)
+[https://mygumi.tistory.com/343](https://mygumi.tistory.com/343)
+[https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html](https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html)
+[https://readystory.tistory.com/131](https://readystory.tistory.com/131)
