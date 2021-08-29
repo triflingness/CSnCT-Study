@@ -35,7 +35,9 @@
 
     - **Component**
 
-        *Shape.java*
+        *Shape.java* 
+
+        - 구현하는 클래스들이 동일한 처리를 하는 메소드
 
         ```java
         public interface Shape {
@@ -144,3 +146,20 @@
     ### 단점
 
     - 설계를 일반화시켜 객체간의 구분, 제약이 힘들다.
+
+
+    <br/>
+
+    
+    ------
+     참조
+
+    [https://dailyheumsi.tistory.com/193#recentComments](https://dailyheumsi.tistory.com/193#recentComments)
+
+    [https://jdm.kr/blog/228](https://jdm.kr/blog/228)
+
+    [https://mygumi.tistory.com/343](https://mygumi.tistory.com/343)
+
+    [https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html](https://gmlwjd9405.github.io/2018/08/10/composite-pattern.html)
+
+    [https://readystory.tistory.com/131](https://readystory.tistory.com/131)
