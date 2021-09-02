@@ -26,13 +26,13 @@
 
 - Class Adapter
 
-    <img src="./images/class_adapter.png" width="60%" height="40%">
+    <img src="./images/class_adapter.PNG" width="60%" height="40%">
 
     - 다중 상속을 활용
     - Adapter 클래스가 Target 클래스와 Adaptee클래스를 모두 상속 받는다.
 - Object Adapter
 
-    <img src="./images/object_adapter.png" width="60%" height="40%">
+    <img src="./images/object_adapter.PNG" width="60%" height="40%">
 
     - 복합 객체, 합성을 활용
     - Adapter가 Target 인터페이스를 구현하고 Adaptee의 인스턴스를 가진다.
