@@ -18,7 +18,7 @@
     - Target Ingterface 를 구현하고, Target Ingterfaced 에서 받은 Client 의 요청을  Adaptee 가 이해하는 방법으로 전달한다.
     - 호환성이 없는 Client 와 Adaptee 를 연결한다.
 
-<img src="./images/adapter_pattern.PNG" width="60%" height="30%">
+<img src="./images/adapter_pattern.PNG" width="70%" height="40%">
 
 → 클라이언트는 Target Interface에 요청을 보내고, 해당 인터페이스를 구현한 Adapter는 자신이 감싸고 있는 Adaptee에 요청을 전달하여 처리를 한다. 
 
@@ -26,13 +26,13 @@
 
 - Class Adapter
 
-    <img src="./images/class_adapter.PNG" width="60%" height="40%">
+    <img src="./images/class_adapter.PNG" width="50%" height="40%">
 
     - 다중 상속을 활용
     - Adapter 클래스가 Target 클래스와 Adaptee클래스를 모두 상속 받는다.
 - Object Adapter
 
-    <img src="./images/odject_adapter.png" width="60%" height="40%">
+    <img src="./images/odject_adapter.png" width="50%" height="40%">
 
     - 복합 객체, 합성을 활용
     - Adapter가 Target 인터페이스를 구현하고 Adaptee의 인스턴스를 가진다.
