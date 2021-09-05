@@ -24,7 +24,7 @@
     - Decorator를 상속받아 구현할 다양한 기능 객체이다.
     - Decorator의 하위 클래스로 기본 기능에 추가되는 개별적인 기능이다.
 
-<img src=" ">
+<img src="./images/a" width="70%" height="40%">
 
 → 추가 기능을 Decorator 클래스로 정의한 후 필요한 Decorator 객체를 조합한다.
 
