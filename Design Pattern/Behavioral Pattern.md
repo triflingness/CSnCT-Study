@@ -38,3 +38,10 @@
 
 11. `Memento` (메멘토 패턴)
     - 특정 시점에서 객체 내부 상태를 객체화 함으로써 이후 요청에 따라 객체를 해당 시점으로 돌릴 수 있는 패턴
+
+
+=====
+참고
+https://coding-factory.tistory.com/708
+https://leveloper.tistory.com/157
+https://sung0woo.tistory.com/82
