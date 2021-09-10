@@ -13,6 +13,8 @@
 
 ### Observer Pattern 구조
 
+<img src="./images/observer_structure.jpg" width="70%" height="40%">
+
 - **Subject**
     - 주제를 나타내는 인터페이스
     - 관찰자를 등록하거나 목찰자 목록에서 제거할 때 해당 인터페이스의 메서드를 사용한다.
