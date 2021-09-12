@@ -9,7 +9,7 @@
 
 ### State Pattern 구조
 
-<img src="./images/state_pattern_structure.PNG" width="70%" height="40%">
+<img src="./images/state_pattern_structure.png" width="70%" height="40%">
 
 - **Context**
     - Client가 접근하고, State를 이용하는 인터페이스
