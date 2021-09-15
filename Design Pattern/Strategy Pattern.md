@@ -11,7 +11,7 @@
 
 ### Strategy Pattern 구조
 
-<img src="./images/strategy_structure.png" width="60%" height="30%">
+<img src="./images/strategy_structure.png" width="50%" height="30%">
 
 - **Context**
     - `ConcreteStrategy` 중 하나에 대한 참조를 유지하고 `Strategy` 를 통해서 해당 객체와 통신한다.
@@ -123,8 +123,13 @@ public class StrategyPatternDemo {
 ----------
 
 참고
+
 [https://sourcemaking.com/design_patterns/strategy](https://sourcemaking.com/design_patterns/strategy)
+
 [https://refactoring.guru/design-patterns/strategy](https://refactoring.guru/design-patterns/strategy)
+
 [https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html](https://gmlwjd9405.github.io/2018/07/06/strategy-pattern.html)
+
 [https://velog.io/@kyle/디자인-패턴-전략패턴이란](https://velog.io/@kyle/%EB%94%94%EC%9E%90%EC%9D%B8-%ED%8C%A8%ED%84%B4-%EC%A0%84%EB%9E%B5%ED%8C%A8%ED%84%B4%EC%9D%B4%EB%9E%80)
+
 [https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm](https://www.tutorialspoint.com/design_pattern/strategy_pattern.htm)
