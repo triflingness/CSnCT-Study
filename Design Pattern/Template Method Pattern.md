@@ -12,7 +12,7 @@
 
 ### Template Method Pattern 구조
 
-<img src="./images/template_structure.png" width="50%" height="70%">
+<img src="./images/template_structure.png" width="70%" height="40%">
 
 - **Abstract Class**
     - 알고리즘의 단계를 정의하고, 해당 단계를 특정 순서로 호출하는 실제 `template method` 를 구현한다.
