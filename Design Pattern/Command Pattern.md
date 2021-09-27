@@ -11,7 +11,7 @@
 
 ### Command Pattern 구조
 
-<img src="./images/command_structure.svg">
+<img src="./images/command_structure.svg.png" width="70%" height="50%">
 
 - **Client**
     - `Invoker` 를 사용하여 기능을 요청하는 클래스이다.
