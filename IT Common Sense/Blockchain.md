@@ -12,7 +12,7 @@
 
 ### 블록체인 원리
 
-<img src="./images/blockchain.jpg" width="60%" height="60%">
+<img src="./images/blockchain.jpg" width="40%" height="50%">
 
 네트워크에 참가하는 모든 공동체가 거래를 기록하고 관리하는 P2P 거래이다.
 
