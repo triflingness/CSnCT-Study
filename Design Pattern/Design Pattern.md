@@ -28,21 +28,21 @@
 객체 생성에 관련된 패턴   
 객체의 생성과 조합을 캡슐화해 특정 객체가 생성되거나 변경되어도 프로그램 구조에 영향을 크게 받지 않도록 유연성을 제공함
 1. [Builder](https://github.com/triflingness/CSnCT-Study/blob/main/Design%20Pattern/Builder%20Pattern.md)
-2. Prototype
-3. Factory Method
-4. Abstract Factory
-5. Singleton
+2. [Prototype](Prototype%20Pattern.md)
+3. [Factory Method](Factory%20Method.md)
+4. [Abstract Factory](Abstract%20Factory%20Pattern.md)
+5. [Singleton](Singleton%20Pattern.md)
 
 ### 구조 패턴
 클래스나 객체를 조합해 더 큰 구조를 만드는 패턴   
 예를 들어 서로 다른 인터페이스를 지닌 2개의 객체를 묶어 단일 인터페이스를 제공하거나 객체들을 서로 묶어 새로운 기능을 제공하는 패턴
-1. Bridge
-2. Decorator
+1. [Bridge](Bridge%20Pattern.md)
+2. [Decorator](Decorator%20Pattern.md)
 3. Facade
 4. Flyweight
 5. Proxy
-6. Composite
-7. Adapter
+6. [Composite](Composite%20Pattern.md)
+7. [Adapter](Adapter%20Pattern.md)
 
 ### 행위 패턴
 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴   
@@ -50,11 +50,11 @@
 1. Mediator
 2. Interpreter
 3. Iterator
-4. Template Method
-5. Observer
-6. State
+4. [Template Method](Template%20Method%20Pattern.md)
+5. [Observer](Observer%20Pattern.md)
+6. [State](State%20pattern.md)
 7. Visitor
-8. Command
-9. Strategy
+8. [Command](Command%20Pattern.md)
+9. [Strategy](Strategy%20Pattern.md)
 10. Memento
 11. Chain of Responsibility
