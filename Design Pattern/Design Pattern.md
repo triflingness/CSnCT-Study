@@ -24,7 +24,7 @@
 **이 분야의 4인방(Gang of Four, GoF)** 이라 불리는 에리히 감마(Erich Gamma), 리차드 헬름(Richard Helm), 랄프 존슨(Ralph Johnson), 존 블리시데스(John Vlissides)가 고안한 디자인 패턴   
 **23가지의 디자인 패턴**을 정리하고 각각의 디자인 패턴을 생성(Creational), 구조(Structural), 행위(Behavioral) 3가지로 분류
 
-### 생성 패턴
+### [생성 패턴](Creational%20Pattern.md)
 객체 생성에 관련된 패턴   
 객체의 생성과 조합을 캡슐화해 특정 객체가 생성되거나 변경되어도 프로그램 구조에 영향을 크게 받지 않도록 유연성을 제공함
 1. [Builder](https://github.com/triflingness/CSnCT-Study/blob/main/Design%20Pattern/Builder%20Pattern.md)
@@ -33,7 +33,7 @@
 4. [Abstract Factory](Abstract%20Factory%20Pattern.md)
 5. [Singleton](Singleton%20Pattern.md)
 
-### 구조 패턴
+### [구조 패턴](Structural%20Pattern.md)
 클래스나 객체를 조합해 더 큰 구조를 만드는 패턴   
 예를 들어 서로 다른 인터페이스를 지닌 2개의 객체를 묶어 단일 인터페이스를 제공하거나 객체들을 서로 묶어 새로운 기능을 제공하는 패턴
 1. [Bridge](Bridge%20Pattern.md)
@@ -44,7 +44,7 @@
 6. [Composite](Composite%20Pattern.md)
 7. [Adapter](Adapter%20Pattern.md)
 
-### 행위 패턴
+### [행위 패턴](Behavioral%20Pattern.md)
 객체나 클래스 사이의 알고리즘이나 책임 분배에 관련된 패턴   
 한 객체가 혼자 수행할 수 없는 작업을 여러 개의 객체로 어떻게 분배하는지, 또 그렇게 하면서도 객체 사이의 결합도를 최소화하는 것에 중점을 둠
 1. Mediator
