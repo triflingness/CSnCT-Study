@@ -10,7 +10,7 @@
 
 ### 파밍 공격 과정
 
-<img src="./images/pharming.jpg" width="50%" height="60%">
+<img src="./images/pharming.jpg" width="70%" height="60%">
 
 1. 가짜 사이트를 설치
 2. DNS 해킹
