@@ -10,13 +10,13 @@
 
 - 이진 탐색 트리에서 사용되는 트리이다.
 - 왼쪽 서브 트리를 중위 순회한다. 노드를 방문한다. 오른쪽 서브 트리를 중위 순회한다.
-- <img src="./imgs/[binary_tree.png](https://github.com/triflingness/CSnCT-Study/blob/main/Data%20Structure/imgs/binary_tree.png)" width="40%" height="30%">
+- <img src="./imgs/binary_tree.png" width="40%" height="30%">
 - 이진 탐색 트리 중위 순회: A, B, C, D, E, F, G, H, I (left, root, right)
 - 이진 탐색 트리의 구현은 트리의 높이에 비례한 호출 스택 공간이 필요하다.
 
 ### 스레드 이진 트리란?
 
-<img src="./imgs/[threaded-binary-tree.png](https://github.com/triflingness/CSnCT-Study/blob/main/Data%20Structure/imgs/threaded-binary-tree.png)" width="60%" height="30%">
+<img src="./imgs/threaded-binary-tree.png" width="60%" height="30%">
 
 <일반적인 이진 트리>
 
@@ -25,7 +25,7 @@
     - 스레드 이진 트리는 이를 효율적으로 사용하기 위해 null 링크를 스레드로 대체한다.
 - 스레드 이진 트리의 각 노드에는 자식 노드에 대한 링크나 트리의 다른 노드에 대한 스레드가 포함되어 있다.
 
-<img src="./imgs/[threadedbinarytree.png](https://github.com/triflingness/CSnCT-Study/blob/main/Data%20Structure/imgs/threadedbinarytree.png)" width="60%" height="40%">
+<img src="./imgs/threadedbinarytree.png" width="60%" height="40%">
 
 <스레드 이진 트리>
 
