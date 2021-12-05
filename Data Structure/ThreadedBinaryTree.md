@@ -284,4 +284,7 @@ public static void main(String[] args)
 
 ---
 참고
+
 [Threaded Binary Tree - javatpoint](https://www.javatpoint.com/threaded-binary-tree)
+
+[Threaded Binary Tree - GeeksforGeeks](https://www.geeksforgeeks.org/threaded-binary-tree/?ref=lbp)
