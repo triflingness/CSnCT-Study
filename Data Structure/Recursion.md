@@ -6,7 +6,7 @@
 ```c
 int factorial(int n) {
 	if(n<=1) return(1);
-	else return (n*factorial(n-1);
+	else return (n*factorial(n-1));
 }
  ```
 ### 순환 : 자신을 다 호출하여 작업 수행
