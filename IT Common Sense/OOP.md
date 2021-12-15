@@ -30,14 +30,30 @@
 > 
 > 정보은닉은 캡슐화의 특성으로 나온 개념이므로 캡슐화를 이용해 정보은닉을 할 수 있다는 이해가 더 타당합니다.
 
-### 2. 추상화
+### 2. 추상화 (Abstraction)
 
-목적과 관련이 없는 부분을 제거하고 필요한 부분만 표현하기 위한 개념을 말합니다.
+부가적인 부분을 제거하고 필요한 부분만 표현하기 위한 개념을 말합니다.
 
-### 3. 다형성
+- `인터페이스` 와 `추상클래스` 는 객체들의 공통적인 기능, 필수적인 기능을 추출하여 만들어진 큰 틀의 클래스입니다.
+- 추상화 과정으로 코드의 재사용성이 향상되고 생산성이 증가되어 유지보수 시간이 단축됩니다.
 
-### 4. 상속
+### 3. 상속 (Inheritance)
+
+상위 클래스(부모 클래스)의 메소드나 변수를 물려받아 하위 클래스(자식 클래스)가 사용할 수 있는 것을 말합니다.
+
+- 자식 클래스는 필요에 따라 상속받은 부모 클래스의 기능을 재정의할 수 있습니다.(`Overriding`)
+- 상속을 통해 코드의 중복을 줄여 클래스의 재사용이 용이해집니다.
+
+### 4. 다형성 (Polymorphism)
+
+변수나 메서드가 상황에 따라 다른 타입을 가질 수 있는 것을 말합니다.
+
+- `method overriding`, `method overloading` 으로 다형성을 실현시킵니다.
+- 메서드 이름이 같아도 사용하는 객체에 따라, 매개변수에 따라 다른 기능을 합니다.
+- 다형성으로 메서드 이름을 낭비하지 않고 인터페이스를 유지할 수 있습니다.
 
 ---
 
 OOP vs POP 비교 - [https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hirit808&logNo=221457311265#](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=hirit808&logNo=221457311265#)
+
+OOP 특징 - [https://velog.io/@hkoo9329/OOPObject-Oriented-Programming-객체-지향-프로그래밍-이란](https://velog.io/@hkoo9329/OOPObject-Oriented-Programming-%EA%B0%9D%EC%B2%B4-%EC%A7%80%ED%96%A5-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-%EC%9D%B4%EB%9E%80)
