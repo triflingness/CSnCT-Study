@@ -62,7 +62,7 @@
         - GRUB와 LILO 모두 System 전원이 공급되면 가장 먼저 ROM-BIOS에서 시스템 제어권을 가지고 장착된 하드웨어에 대한 기본적인 점검과 인식을 한다.
         - ROM-BIOS는 하드디스크의 첫 번째 부트 섹터인 MBR(Master Bpoot Record)에 있는 Boot Loader에게 제어권을 넘긴다.
 
-1. Grub(GRand Unified Bootloader)
+2. Grub(GRand Unified Bootloader)
     - Erich Stefan Boleny에 의해서 개발된 부트로더이다.
     - GRUB 부트로더는 리눅스 부팅 시 처음 나오는 선택화면이다.
     - 리눅스의 전통적인 부트로더로 사용되어 왔던 LILO의 단점을 보완한 것이다.
@@ -73,4 +73,45 @@
     - 메뉴 인터페이스 환경을 지원하며, 대화명 모드로 부트 정보를 설정할 수 있다.
     - 파일 시스템과 커널 실행 포맷을 인식하여 하드 디스크상에서 커널의 물리적 위치를 기록하지 않아도 커널 위치와 커널 이미지 파일명만 알고 있으면 부팅이 가능하다.
     - CentOS 6(kernel 2.6)에서는 Frub Legacy를, CentOS 7(kernel 3.X)에서는 GRUB 2 버전을 사용한다.
-    -
+    - GRUB 1(Legacy) 버전과 GRUB 2 버전의 차이점
+    - <img src="./images/grub비교.png" width="60%" height="40%">
+    - GRUB 1(Legacy) 버전
+        - 환경 설정 파일 : /boot/grub/grub.conf
+        - 링크 파일 : /etc/grub.conf
+    - GRUB 2 버전
+        - 설정 파일 : /boot/grub2/grub.cfg (읽기 전용)
+        - 링크 파일 : /etc/grub2.cfg
+        - grub 환경 설정 : /etc/default/grub, /etc/grub.d
+        - 설정 내용 적용 :  grub2-mkconfig
+    - 장치명
+        - GRUB에서는 ROM-BIOS에서 사용하는 정보를 사용하며 IDE, SCSI 장치명을 별도로 구분 짓지 않는다.
+        - IDE와 SCSI의 구분 없이 시스템에 정착된 순서대로 hd0, hd1 표기한다.
+        - 디스크 번호와 파티션 번호는 모두 0부터 시작한다.
+        - (디스크 장치명, 파티션명) 형식으로 표기한다.
+    - GRUB 2 작업 모드
+        - GRUB 2 명령 모드 (초기 화면에서 'c')
+        - GRUB 2 편집 모드 (초기 화면에서 'e')
+        - 편집 모드에서 사용할 수 있는 키와 기능
+            - 방향키 ⬆️,⬇️ : 위, 아래 이동
+            - a(append) : grub.comf에서 커널과 관련된 매개변수를 추가
+            - b(boot) : 선택된 boot menu로 시스템을 부팅
+            - e(edit) : 선택된 boot menu의 명령어를 편집
+            - c(command) :  상호 대화식으로 직접 입력할 수 있는 모드, 명령어를 입력하는 환경이 bash 셸과 유사
+            - o(open) : 새로운 행을 커서 다음 행에 삽입
+            - O(Open) : 새로운 행을 커서 앞 행에 삽입
+            - d(delete) : 선택된 행을 삭제
+            - ESC : GRUB 이전 메뉴로 이동
+
+### 런레벨(run level)
+
+1. 리눅스 부팅 시 작동하는 서비스들을 런레벨에 따라 작동하는 서비스를 조정할 수 있다.
+    - 리눅스 부팅의 마지막 단계에서 모든 프로세스의 부모 프로세스인 init이 생성된다.
+    - 프로세스 init이 참조하는 것이 런레벨이다.
+    - 런레벨은 프로세스 init이 수행해야 할 일련의 처리 방법이다.
+    - 런레벨은 0에서부터 6까지 총 7가지이다.
+2. 7가지 런레벨 중 리눅스 가동 시 특정 모드의 레벨을 디폴트로 할 경우 파일 /etc/inittab에 설정한다.
+    
+    <img src="./images/런레벨.png" width="60%" >
+    
+    - /etc/inittab 파일 형식은 '코드 런레벨:행동:명령어'이다.
+    - 현재 실행되는 런레벨 확인 명령어 : runlevel
