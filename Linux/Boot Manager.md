@@ -74,7 +74,7 @@
     - 파일 시스템과 커널 실행 포맷을 인식하여 하드 디스크상에서 커널의 물리적 위치를 기록하지 않아도 커널 위치와 커널 이미지 파일명만 알고 있으면 부팅이 가능하다.
     - CentOS 6(kernel 2.6)에서는 Frub Legacy를, CentOS 7(kernel 3.X)에서는 GRUB 2 버전을 사용한다.
     - GRUB 1(Legacy) 버전과 GRUB 2 버전의 차이점
-    - <img src="./images/grub비교.png" width="60%" height="40%">
+    - <img src="./imgs/grub비교.png" width="60%" height="40%">
     - GRUB 1(Legacy) 버전
         - 환경 설정 파일 : /boot/grub/grub.conf
         - 링크 파일 : /etc/grub.conf
@@ -111,7 +111,7 @@
     - 런레벨은 0에서부터 6까지 총 7가지이다.
 2. 7가지 런레벨 중 리눅스 가동 시 특정 모드의 레벨을 디폴트로 할 경우 파일 /etc/inittab에 설정한다.
     
-    <img src="./images/런레벨.png" width="60%" >
+    <img src="./imgs/런레벨.png" width="60%" >
     
     - /etc/inittab 파일 형식은 '코드 런레벨:행동:명령어'이다.
     - 현재 실행되는 런레벨 확인 명령어 : runlevel
