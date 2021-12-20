@@ -68,6 +68,6 @@ HTTP 통신을 사용하므로 HTTP의 특징을 부분 포함합니다.
 
 ---
 **참고자료**
-[https://meetup.toast.com/posts/92](https://meetup.toast.com/posts/92)
-[HTTP 요청](https://github.com/triflingness/CSnCT-Study/blob/main/Network/3.%20http%20vs%20https.md)
+- [https://meetup.toast.com/posts/92](https://meetup.toast.com/posts/92)
+- [HTTP 요청](https://github.com/triflingness/CSnCT-Study/blob/main/Network/3.%20http%20vs%20https.md#http-%EC%9A%94%EC%B2%ADrequest)
 
