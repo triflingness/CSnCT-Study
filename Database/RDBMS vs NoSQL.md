@@ -34,11 +34,8 @@
 </br>
 
 ---
-
 참고 및 출처
 
 [RDBMS와 NoSQL의 차이점 완벽 정리 (universitytomorrow.com)](https://universitytomorrow.com/26)
-
 [NoSQL vs Relational Databases | MongoDB](https://www.mongodb.com/scale/nosql-vs-relational-databases)
-
 [NoSQL vs SQL Databases | MongoDB](https://www.mongodb.com/nosql-explained/nosql-vs-sql)
