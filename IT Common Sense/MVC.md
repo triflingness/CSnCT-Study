@@ -27,7 +27,7 @@ Model, View, Controller 의 컴포넌트를 사용하여 구현하는 아키텍�
 
 - 컨트롤러로부터 받을 모델의 결과값을 가지고 출력할 화면을 만드는 역할을 수행한다.
 
-### MVC 구조
+### MVC 동작
 
 <p align="center">
   <img src="https://github.com/triflingness/CSnCT-Study/blob/main/IT%20Common%20Sense/images/MVC.png">
