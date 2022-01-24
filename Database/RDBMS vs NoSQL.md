@@ -12,6 +12,7 @@
 - **단점**
     - 시스템이 커질 수록 JOIN문이 많은 쿼리가 복잡해지고 성능이 저하된다.
     - 수평적 확장(서버 전체의 확장, **scale-out**)이 어려워 수직적 확장(기존 서버의 교체, **scale-up**)만을 지원한다.
+- **데이터 구조가 명확하며 변경될 여지가 없고 스키마가 중요한 경우 사용한다. 데이터가 자주 변경되는 시스템에 적합하다.**
 
 </br>
 
@@ -22,14 +23,15 @@
 - RDBMS로 처리할 수 없을 정도의 크고 복잡한 데이터들을 관리한다.
 - `Key와 Value`만으로 데이터 관리를 한다.(JSON문서, 키값, 그래프)
 - 빠른 애플리케이션 변경과 확장을 목적으로 두고 일반적으로 조인을 필요로 하지 않는다.
-- 장점
+- **장점**
     - 유연한 데이터 모델:  스키마가 없어 비정형 데이터를 보다 자유롭게 조작할 수 있다.
     - 성능 향상을 위한 scale-up, scale-out 모두 가능하다.
     - 빠른 쿼리: 조인을 필요로 하지 않아 쿼리가 빠르다.
-- 단점
+- **단점**
     - 중복된 데이터가 추가 가능하여, 이에 대한 관리가 필요하다.
     - ACID 트랜잭션을 지원하지 않는다.
     - 데이터베이스의 유형에 따라 단일 데이터베이스에서 모든 use case를 구현하지 못 한다.
+- **데이터 구조가 명확하지 않고 변경, 확장될 여지가 있는 경우에 사용한다. 엄청 크고, 변경이 많이 이루어지지 않는 데이터들을 저장하고 Scale-out이 필요한 시스템에 적합하다.**
 
 </br>
 
@@ -37,5 +39,9 @@
 참고 및 출처
 
 [RDBMS와 NoSQL의 차이점 완벽 정리 (universitytomorrow.com)](https://universitytomorrow.com/26)
+
+[[Database] RDBMS와 NoSQL의 차이점 :: 히진쓰의 서버사이드 기술 블로그 (tistory.com)](https://khj93.tistory.com/entry/Database-RDBMS%EC%99%80-NOSQL-%EC%B0%A8%EC%9D%B4%EC%A0%90)
+
 [NoSQL vs Relational Databases | MongoDB](https://www.mongodb.com/scale/nosql-vs-relational-databases)
+
 [NoSQL vs SQL Databases | MongoDB](https://www.mongodb.com/nosql-explained/nosql-vs-sql)
