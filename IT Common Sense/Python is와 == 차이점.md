@@ -13,7 +13,7 @@
 ```python
 a = []
 b = []
-c = b
+c = a
 
 a is b
 >>> False # 값은 같지만 객체가 다르다.
@@ -28,7 +28,7 @@ a is c
 ```python
 a = []
 b = []
-c = b
+c = a
 
 a == b
 >>> True # 서로 같은 값을 가진다.
