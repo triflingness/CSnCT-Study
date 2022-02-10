@@ -35,6 +35,7 @@
 </br>
 
 ---
+참고 및 출처
 
 [[데이터베이스] 정규화 vs. 비정규화(반정규화) (tistory.com)](https://owlyr.tistory.com/20)
 
