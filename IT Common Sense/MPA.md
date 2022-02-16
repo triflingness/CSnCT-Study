@@ -26,7 +26,7 @@
 
 ### MPA 장점
 
-- 검색엔진 최적화(Search Engine Optimization, SEO)에 최적화
+- 검색엔진 최적화(Search Engine Optimization, SEO)에 적합
     - html에 모든 정보가 다 담아져있기 때문
     - 검색 사이트에 노출이 중요한 사이트는 MPA 구조로 개발하는 것이 좋다.
 - 처음 로딩이 짧음
