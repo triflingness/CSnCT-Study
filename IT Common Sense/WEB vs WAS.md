@@ -43,7 +43,7 @@
 1. Client - Web Server - DB
 2. Client - WAS - DB
 3. Client - Web Server - WAS - DB
-    
+    * 규모가 커지면 웹 서버와 WAS를 분리하여 부하를 분산시킨다.(분산처리)
     <p>
       <img src="https://github.com/triflingness/CSnCT-Study/blob/main/IT%20Common%20Sense/images/was2.png">
     </p>
